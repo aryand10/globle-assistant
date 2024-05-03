@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globle Game Helper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Globle Game Helper</h1>
+    <input type="text" id="current_guess" placeholder="Enter your country guess">
+    <select id="feedback">
+        <option value="warmer">Warmer</option>
+        <option value="colder">Colder</option>
+        <option value="adjacent">Adjacent</option>
+    </select>
+    <button onclick="addGuess()">Add Guess and Suggest Next Country</button>
+    <p id="suggestion">Next country suggestion will appear here...</p>
+    <script src="script.js"></script>
+</body>
+</html>
